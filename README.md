@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: The naked twins problem utilizes constraint propogation to reduce the solution space by removing values resulting in a contradiction (to the games rules).  Various methods are used in constraint propogation starting with the simplest method of 'Elimination' which simply eliminates the value of a known box from its peers.  The second method of constraint propogation 'Only Choice' simply assigns a box with a specified value if it is the only box in a unit which can have the possible value.  The last form of constrain propogation 'naked twins' is similar to 'Only Choice' however utilizes circumstances where a unit contains only two boxes with the same two specified values - in a similar manner these two values can be eliminated from all other boxes in the shared unit.  
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: Constraint propogation is used in the diagonal sudoku problem by simply adding two additional units to the unit list which consist of the diagonal numbers.  This simply allows the previously used methods of constraint propogation to work in the same manner as before. 
 
 ### Install
 
